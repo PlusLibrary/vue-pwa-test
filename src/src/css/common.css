@@ -1,0 +1,10 @@
+* * {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Meiryo";
+}
+
+@font-face { 
+    font-family: "Meiryo";
+    src: url("../resource/Meiryo.ttf"); 
+}
