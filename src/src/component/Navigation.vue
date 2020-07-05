@@ -1,16 +1,16 @@
 <template>
     <div class="navigation">
-        <div class="item">
+        <div class="item" @click="pick(0)">
             <div>
                 ピンクセーター
             </div>
         </div>
-        <div class="item">
+        <div class="item" @click="pick(1)">
             <div>
                 オーバーオール
             </div>
         </div>
-        <div class="item">
+        <div class="item" @click="pick(2)">
             <div>
                 緑スカート
             </div>
@@ -21,6 +21,11 @@
 <script>
     export default {
         name: "Navigation",
+        methods: {
+            pick(v) {
+                this.$emit("selectChanged", v);
+            }
+        }
     }
 </script>
 

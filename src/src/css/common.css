@@ -4,6 +4,10 @@
     font-family: "Meiryo";
 }
 
+html, body, #app {
+    height: 100%;
+}
+
 @font-face { 
     font-family: "Meiryo";
     src: url("../resource/Meiryo.ttf"); 
